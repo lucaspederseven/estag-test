@@ -1,0 +1,75 @@
+
+#rodape .container{
+    display: flex;
+    justify-content: space-between;
+    
+     }
+    
+     #rodape .item{
+        display: flex;
+      flex-direction: column;
+        
+     }
+    
+     #rodape h6{
+        
+        color: darkgrey;
+        font-size: 0.6rem;
+        text-align: justify;
+     }
+     #rodape h5{
+        font-size: 0.7rem;
+        font-weight: lighter;
+     }
+     #rodape .icones{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+     }
+
+     #payment img{
+        width: 170px;
+        height: 100px;
+     }
+
+     
+     #security img{
+        width: 100px;
+        height: 100px;
+
+     }
+
+     #rodape .informacoes{
+        display: grid;
+        justify-content:center;
+        
+    }
+     
+    @media  screen and (max-width:567px) {
+      #rodape .container{
+         display: block;
+     
+        
+      }
+      #rodape .item h6, h5{
+         text-align: center;
+      }
+      #rodape .icones{
+         display: flex;
+         justify-content: space-around;
+      }
+
+      #payment img{
+         margin-left: 5rem;
+
+      }
+      #security img{
+         margin-left: 7rem;
+         margin-bottom: 1rem;
+      }
+      .informacoes h6{
+         display: grid;
+        justify-content:center;
+      }
+        
+    }

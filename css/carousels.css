@@ -1,0 +1,60 @@
+#primeiro-carousel h2{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#primeiro-carousel .card-title{
+    font-size:0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: light;
+}
+
+#primeiro-carousel .prices{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#primeiro-carousel .card-subtitle{
+text-align: center;
+font-weight: lighter;
+font-size: 0.5rem;
+}
+
+
+#primeiro-carousel .prices h6{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.segundo-carousel{
+    display: flex;
+    
+}
+#segundo-carousel .card{
+    border: none;
+}
+
+#segundo-carousel h2{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#segundo-carousel h5{
+    text-align: center;
+    font-weight: lighter;
+    font-size:0.8rem;
+    text-transform: uppercase;
+}
+
+@media  screen and (max-width:567px) {
+
+    .segundo-carousel{
+        display: grid;
+        justify-content: center;
+      }
+      
+}

@@ -1,0 +1,92 @@
+.card-wrapper{
+    display: flex;
+    
+}
+.card{
+    margin:0.5em;
+    width: 18rem;
+}
+
+
+.cards-setores-casa img{
+width: 100%;
+    height: 100%;
+    filter: brightness(40%);
+    border: 15%;
+}
+
+
+.cards-setores-casa .figure-caption{
+        position: absolute;
+       
+        top:32%;
+        left: 19%;
+     
+     font-size: xx-large;
+     color: gainsboro;
+     font-weight: bolder;
+     
+
+}
+
+.ultimos-cards h5{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+.ultimos-cards p{
+    text-align: center;
+    font-weight: light;
+    font-size: 0.5rem;
+}
+
+  
+  .h3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  
+.overlay p{
+    font-weight: light;
+    font-size: 0.8rem;
+    color: white;
+    text-align: justify;
+    
+}
+  
+   .overlay {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       background-color: rgba(105, 78, 76, 41);
+      }
+      
+      .hidden {
+        display: none;
+      }
+
+@media screen and (max-width:567px){
+    .card-wrapper{
+        display: grid;
+        justify-content: center;
+      }
+      .card-group{
+        display: grid;
+        justify-content: center;
+      }
+}

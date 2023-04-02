@@ -1,0 +1,63 @@
+.imagem-maior{
+    width: 400px;
+    height: 350px;
+}
+
+
+.imagem-maior{
+    width: 100%;
+    background: url(../images/produtos/prod6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imagens-menores{
+    display: flex;
+    margin: 0.5rem;
+}
+.imagens-menores img{
+   
+}
+
+.item-infos{
+    display: flex;
+}
+.title h6{
+    font-weight: bold;
+}
+.subtitle{
+    font-size: 0.8rem;
+    font-weight: lighter;
+
+}
+.notas{
+    color: darkorange;
+    padding-top: 0.5rem;
+}
+
+.preco .text-danger{
+    font-weight: bold;
+}
+
+.valores-convertidos{
+    font-weight: lighter;
+    font-size: 0.7rem;
+}
+
+.entregas h5{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.entregas h6{
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+
+
+@media screen and (max-width:567px){
+    #produto-geral .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

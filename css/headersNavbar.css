@@ -1,0 +1,49 @@
+#informacoes-esquerda h6{
+    display: flex;
+    justify-content: end;
+}
+#informacoes-meio {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#informacoes-meio a{
+    margin-left: 2rem;
+}
+#informacoes-meio h6{
+    padding-left: 10px;
+}
+#informacoes-direita{
+    display: flex;  
+  
+}
+#informacoes-direita h6{
+    font-size: 0.6rem;
+    padding-top: 40px;
+    
+}
+
+.navbar{
+background-color: black;
+}
+#sessao-navbar a{
+    
+    color: white;
+}
+
+@media  screen and (max-width:567px) {
+    #informacoes-meio{
+        margin-top: 0.5rem;
+    }
+
+    #informacoes-meio .form-control{
+        margin-top: 1rem;
+    }
+    
+    #informacoes-direita{
+        padding-left: 2rem;
+    }
+  
+
+}

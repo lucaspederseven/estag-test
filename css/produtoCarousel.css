@@ -1,0 +1,39 @@
+#produto-carousel h2{
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: light;
+    padding-top: 3rem;
+    padding-left: 0.6rem;
+}
+
+#produto-carousel .card-title{
+    font-size:0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: light;
+}
+
+#produto-carousel .prices{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#produto-carousel .card-subtitle{
+text-align: center;
+font-weight: lighter;
+font-size: 0.5rem;
+}
+
+
+#produto-carousel .prices h6{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#produto-carousel .prices button{
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
